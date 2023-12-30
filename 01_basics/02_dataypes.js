@@ -9,6 +9,7 @@ console.log("aashish")
 let name = "aashish" //string datatype
 let age = 18 //number datatype
 let isLoggedIn = false //boolena data type
+console.log(isLoggedIn)
 
 
 //PRIMITIVE DATATYPES//
@@ -32,5 +33,10 @@ console.log(typeof undefined)//undefined
 console.log(typeof null)//object
 
 
+let iAMUseless = null;
+console.log(iAMUseless)
 
+let iAmstandby;
+console.log(iAmstandby)
 
+true+true
