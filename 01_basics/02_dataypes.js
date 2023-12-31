@@ -2,14 +2,14 @@
 
 // alert("Hello") //We are using nodejs, not browser
 
-console.log(3 + 3); //code readability should be high
+// console.log(3 + 3); //code readability should be high
 
-console.log("aashish")
+// console.log("aashish")
 
-let name = "aashish" //string datatype
-let age = 18 //number datatype
-let isLoggedIn = false //boolena data type
-console.log(isLoggedIn)
+// let name = "aashish" //string datatype
+// let age = 18 //number datatype
+// let isLoggedIn = false //boolena data type
+// console.log(isLoggedIn)
 
 
 //PRIMITIVE DATATYPES//
@@ -29,14 +29,33 @@ NULL is a object*/
 
 //OBJECT
 
-console.log(typeof undefined)//undefined
-console.log(typeof null)//object
+// console.log(typeof undefined)//undefined
+// console.log(typeof null)//object
 
 
-let iAMUseless = null;
-console.log(iAMUseless)
+// let iAMUseless = null;
+// console.log(iAMUseless)
 
-let iAmstandby;
-console.log(iAmstandby)
+// let iAmstandby;
+// console.log(iAmstandby)
 
-true+true
+const id = Symbol('123')
+const anotherId = Symbol('123')
+console.log(id == anotherId)
+
+const bigNumber = 4375987938739n
+
+const heros = ["spiderman","batman"]
+
+
+let myObj={
+    name:"aashish",
+    age:22,
+}
+
+const myFunction = function(){
+    console.log("Hello World");
+}
+
+console.log(typeof myFunction)
+
