@@ -17,16 +17,16 @@ const myArr1 = new Array (1, 2, 3, 4)
 // console.log(myArr.includes(9))
 // console.log(myArr.indexOf(9))
 
-const newArr = myArr.join()
+// const newArr = myArr.join()
 
-// console.log(typeof myArr);
-// console.log(typeof newArr)
+// // console.log(typeof myArr);
+// // console.log(typeof newArr)
 
-//// slice and splice
+// //// slice and splice
 
-console.log("A", myArr);
+// console.log("A", myArr);
 
-const myn1 = myArr.slice(1,3)
+// const myn1 = myArr.slice(1,3)
 
-console.log(myn1)
-console.log("B", myArr);
+// console.log(myn1)
+// console.log("B", myArr);
