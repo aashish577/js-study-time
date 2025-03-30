@@ -39,7 +39,28 @@
 
 const buttons = document.querySelectorAll('.button')
 
-const body = document.querySelector('body')
+// const buttons = document.querySelector('#colorswitcher'); // Selects all elements with the given ID
+// console.log(buttons);
+
+
+const body = document.querySelector('body');
+// console.log(body);
+
+// ----------------- FOR PRACTICE-------------
+
+// buttons.forEach((button) => {
+//     button.addEventListener('click', function () {
+//         body.style.backgroundColor = 'red'; // Correct assignment
+//     });
+// });
+
+// --------------- FOR USING ONLY QUERYSELECTOR NO NEED OF FOREACH METHOD------------
+
+    // buttons.addEventListener('click', function () {
+    //     body.style.backgroundColor = 'red'; // Correct assignment
+    // });
+
+
 
 buttons.forEach( (button) =>{
     button.addEventListener('click', function (e){
@@ -59,3 +80,4 @@ buttons.forEach( (button) =>{
     })
     
 } )
+
